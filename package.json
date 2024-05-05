@@ -1,0 +1,36 @@
+{
+  "name": "class-x",
+  "version": "1.0.0",
+  "description": "Dynamic class name generation made easy with a lightweight utility to simplify styling in React, React Native, and more. No fuss, just class names! 💅✨",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shettayyy/class-x.git"
+  },
+  "keywords": [
+    "classname",
+    "classnames",
+    "classes",
+    "react",
+    "css",
+    "html",
+    "react-native",
+    "string",
+    "style",
+    "stylesheet",
+    "styles"
+  ],
+  "author": "Rahul Shetty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shettayyy/class-x/issues"
+  },
+  "homepage": "https://github.com/shettayyy/class-x#readme",
+  "dependencies": {
+    "rimraf": "^5.0.5"
+  }
+}
