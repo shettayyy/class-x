@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\"",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,10 @@
   "homepage": "https://github.com/shettayyy/class-x#readme",
   "dependencies": {
     "rimraf": "^5.0.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.0.11"
   }
 }
